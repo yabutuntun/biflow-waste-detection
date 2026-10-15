@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "BiFlow: Lightweight Bidirectional Residual Feature Compensation"
+authors:
+  - family-names: Guo
+    given-names: Weiru
+    email: 67438002-7@st.siu.ac.th
+  - family-names: Kaewkiriya
+    given-names: Thongchai
+    email: thongchai.k@siu.ac.th
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/yabutuntun/biflow-waste-detection"

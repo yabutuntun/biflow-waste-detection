@@ -1,0 +1,14 @@
+This release contains only the standalone PyTorch implementation of BiFlow
+(`biflow.py`) and a minimal usage example.
+
+It does not contain:
+
+- the Ultralytics integration layer;
+- the training or evaluation pipeline;
+- the TOD dataset;
+- trained checkpoints or ONNX files in the source repository.
+
+The paper checkpoints are distributed as a separate release asset, described
+in `weights/README.md`. The baseline detector used in the paper is built on
+Ultralytics, which is distributed under its own license. The integration layer
+is not part of this standalone release.

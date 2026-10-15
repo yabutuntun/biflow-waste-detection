@@ -1,0 +1,69 @@
+{
+  "release": "weights_v1.0.0",
+  "released": "2026-10-15",
+  "paper": "Accuracy--Efficiency--Latency Tradeoff of High-Resolution Input and Lightweight Bidirectional Feature Compensation for Edge Waste Detection",
+  "source_runs": "Original A/B/D training runs, the same run0 checkpoints recorded in final_model_freeze.json (2026-09-29)",
+  "models": [
+    {
+      "label": "A",
+      "role": "baseline",
+      "input": [640, 640],
+      "run": "A_run0",
+      "reported_map50_95": 0.6640,
+      "pt": {
+        "file": "A_640_best.pt",
+        "size": 5423138,
+        "sha256": "0e23b05f6549a8ff84c69cfbbc226097a1481c4b6003a6c0f1572ea6c13587de"
+      },
+      "onnx": {
+        "file": "A_640.onnx",
+        "size": 9811943,
+        "sha256": "6090668bdb97b360587474a5c4b117e3114bb68cb4140f7f3e890b7c05bfa214",
+        "opset": 12
+      }
+    },
+    {
+      "label": "B",
+      "role": "baseline",
+      "input": [1280, 1280],
+      "run": "B_run0",
+      "reported_map50_95": 0.7390,
+      "pt": {
+        "file": "B_1280_best.pt",
+        "size": 5507042,
+        "sha256": "73a1f77d053911cbacb97fe9755ac2033576fc28f46a4a33dd40e47f48194d4d"
+      },
+      "onnx": {
+        "file": "B_1280.onnx",
+        "size": 10316276,
+        "sha256": "9d0044ba67465865cc4927fea809fcfbb981bd53a39a203803c65ad9129f0e8d",
+        "opset": 12
+      }
+    },
+    {
+      "label": "D",
+      "role": "full BiFlow module",
+      "input": [1280, 1280],
+      "run": "D_run0",
+      "reported_map50_95": 0.7568,
+      "pt": {
+        "file": "D_1280_biflow_best.pt",
+        "size": 5956010,
+        "sha256": "851e15e871e78d06da6610cada45b7ea59aeb8ee3d941435ecec09f0aa65abad"
+      },
+      "onnx": {
+        "file": "D_1280_biflow.onnx",
+        "size": 11185286,
+        "sha256": "670b4c2ca103f9293e67461c24c24f86cd7d34f1b3dfbd7ec99222398d3c30e9",
+        "opset": 12
+      }
+    }
+  ],
+  "not_included": [
+    "Fusion-control checkpoints (available from the corresponding author on reasonable request)"
+  ],
+  "license_notes": [
+    "PyTorch checkpoints were produced with the Ultralytics framework (AGPL-3.0); see THIRD_PARTY_NOTICES.md in the source repository.",
+    "reported_map50_95 values are the internal evaluation results reported in the paper for the frozen run0 weights."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  ".github/workflows/tests.yml": {
+    "sha256": "2dcceb714234497fceba39a3e8bac9931a5666f396750c7fc50c2b6421fbc835",
+    "size": 377
+  },
+  ".gitignore": {
+    "sha256": "0dea0f8af62576b730e468360c5a89c155f7c140050c67e50e87a1c57889d29a",
+    "size": 135
+  },
+  "CHANGELOG.md": {
+    "sha256": "ea57127d3cbab3853bbb8ab6ba673586bea7639ed3ad55738daed6753ad1bc52",
+    "size": 279
+  },
+  "CITATION.cff": {
+    "sha256": "53a92fd45600f4f492dbc5facebfbfa19e32050d703dc6da25451e8343e95a1c",
+    "size": 450
+  },
+  "LICENSE": {
+    "sha256": "077cbe45b2633811bcf91e9755746f4a9a53c9660d6631684ecc24d248a19230",
+    "size": 1091
+  },
+  "NOTICE": {
+    "sha256": "a08a46681ae351bea1e9b78e969bd8c130f19131c3262659a00f2863c1522961",
+    "size": 571
+  },
+  "README.md": {
+    "sha256": "c1635313585c6c5999133d26d6ba549177dded79750b32701ff9e6575dec1321",
+    "size": 3939
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "sha256": "f625a219472d8035d2623dbc5d8072bd12c9db2076189181da8fc45a7447ea3b",
+    "size": 887
+  },
+  "biflow.py": {
+    "sha256": "4adfea92249de5e54b38b2459be383d564ae937073c1eb2a7e6ccbb3e8606bd3",
+    "size": 1778
+  },
+  "data/README.md": {
+    "sha256": "9d826d4d62c432c39796f6d95765bc89c583bfbc6b5cc99e8b911a3ecb70cfdc",
+    "size": 997
+  },
+  "example.py": {
+    "sha256": "203b1cca2c35709050ed10a26ad6975d78e63e3620f92f495b7a2e04ddea621c",
+    "size": 625
+  },
+  "pyproject.toml": {
+    "sha256": "6be4c8a263269cedd093a45c3d4aacc250f62607fc3193b8b49ade8a4e00cb4d",
+    "size": 417
+  },
+  "requirements-dev.txt": {
+    "sha256": "5b49270ddf945ae086dbe082903120016d71df0dc50f58907c43e7e5149aafdc",
+    "size": 12
+  },
+  "requirements.txt": {
+    "sha256": "b36f2f2486ae678c3f0c57166517120468d911b5f254e2701246763df336939f",
+    "size": 11
+  },
+  "splits/split_manifest.json": {
+    "sha256": "9b67491e98d3a8f466874b99f8911c3f4ce57cb558a5bd416cbd2b68d489ef00",
+    "size": 360714
+  },
+  "tests/test_biflow.py": {
+    "sha256": "453982b9742e7ec5b23c958fc7aef5376e433f9f14c1964bb5c1a06fe9434e39",
+    "size": 660
+  },
+  "weights/README.md": {
+    "sha256": "1aa5ece6b5456aded279835f502e1aac3df5d065f4fe4885d64d433343039040",
+    "size": 2409
+  },
+  "weights/weights_manifest.json": {
+    "sha256": "f86753e16352048e543612a001fd4d577bc5c270902466203791a57ba2d8da2e",
+    "size": 2281
+  }
+}
