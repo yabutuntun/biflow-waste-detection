@@ -16,11 +16,12 @@ Please cite the original dataset paper:
 ## What is provided here
 
 `../splits/split_manifest.json` records the train/val/test identifiers used in
-the paper:
+the paper. The evaluation uses 2876 images grouped into five acquisition
+sequences:
 
-- train: 3972 images
-- val: 487 images
-- test: 510 images
+- train: 1943 images
+- val: 300 images
+- test: 633 images
 
 The manifest contains file identifiers and the original split provenance only.
 It does not contain images or labels.

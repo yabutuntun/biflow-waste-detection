@@ -23,7 +23,7 @@ class BiFlow(nn.Module):
         self.high_to_low = nn.Sequential(
             nn.Conv2d(c_high, mid, 3, 2, 1, bias=False),
             nn.BatchNorm2d(mid),
-            nn.SiLU(inplace=True),
+            nn.SiLU(),
             nn.Conv2d(mid, c_low, 1, bias=False),
         )
 
@@ -32,7 +32,7 @@ class BiFlow(nn.Module):
             nn.Upsample(scale_factor=2, mode="bilinear", align_corners=False),
             nn.Conv2d(c_low, mid, 1, bias=False),
             nn.BatchNorm2d(mid),
-            nn.SiLU(inplace=True),
+            nn.SiLU(),
             nn.Conv2d(mid, c_high, 1, bias=False),
         )
 

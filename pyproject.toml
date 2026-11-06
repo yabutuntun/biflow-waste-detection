@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "biflow"
-version = "1.0.0"
+version = "1.0.1"
 description = "Lightweight bidirectional residual feature compensation"
 readme = "README.md"
 requires-python = ">=3.9"

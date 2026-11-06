@@ -1,69 +1,69 @@
 {
-  "release": "weights_v1.0.0",
-  "released": "2026-10-15",
+  "release": "weights_v1.0.1",
+  "released": "2026-11-06",
   "paper": "Accuracy--Efficiency--Latency Tradeoff of High-Resolution Input and Lightweight Bidirectional Feature Compensation for Edge Waste Detection",
-  "source_runs": "Original A/B/D training runs, the same run0 checkpoints recorded in final_model_freeze.json (2026-09-29)",
+  "source_runs": "leave-one-sequence-out fold 0 (seed 42) checkpoints; clean_v1 dataset (2876 images, 5 sequences)",
+  "note": "map50_95_mean_std is the 5-fold leave-one-sequence-out mean \u00b1 std reported in the paper; map50_95_fold0 is the held-out fold-0 metric of the released checkpoint.",
   "models": [
     {
       "label": "A",
       "role": "baseline",
-      "input": [640, 640],
-      "run": "A_run0",
-      "reported_map50_95": 0.6640,
+      "input": [
+        640,
+        640
+      ],
+      "map50_95_fold0": 0.6194,
+      "map50_95_mean_std": "0.4294 \u00b1 0.1179",
       "pt": {
-        "file": "A_640_best.pt",
-        "size": 5423138,
-        "sha256": "0e23b05f6549a8ff84c69cfbbc226097a1481c4b6003a6c0f1572ea6c13587de"
+        "file": "best.pt",
+        "size": 5373182,
+        "sha256": "8ea9d8b6727b93720e5082751dd67cdfd1d4ba4fbad2b97e1c08bdba5a92504d"
       },
       "onnx": {
-        "file": "A_640.onnx",
-        "size": 9811943,
-        "sha256": "6090668bdb97b360587474a5c4b117e3114bb68cb4140f7f3e890b7c05bfa214",
-        "opset": 12
+        "file": "A_640_seed42_640.onnx",
+        "size": 9812458,
+        "sha256": "c8840788d04d51dacc738d2a6a42c119e2898bea9dffb22553fbace573e17f21"
       }
     },
     {
       "label": "B",
       "role": "baseline",
-      "input": [1280, 1280],
-      "run": "B_run0",
-      "reported_map50_95": 0.7390,
+      "input": [
+        1280,
+        1280
+      ],
+      "map50_95_fold0": 0.7057,
+      "map50_95_mean_std": "0.5398 \u00b1 0.1287",
       "pt": {
-        "file": "B_1280_best.pt",
-        "size": 5507042,
-        "sha256": "73a1f77d053911cbacb97fe9755ac2033576fc28f46a4a33dd40e47f48194d4d"
+        "file": "best.pt",
+        "size": 5463166,
+        "sha256": "584f957dd9807552ef0d94f9b106d1527a7fcf89084abb86c5bc78708c8f473f"
       },
       "onnx": {
-        "file": "B_1280.onnx",
-        "size": 10316276,
-        "sha256": "9d0044ba67465865cc4927fea809fcfbb981bd53a39a203803c65ad9129f0e8d",
-        "opset": 12
+        "file": "B_1280_fold0_seed42_1280.onnx",
+        "size": 10316791,
+        "sha256": "9354c118c5366d2ab125b636fa4debb54cabfdcad344b66d7ab4b7937bfb5378"
       }
     },
     {
       "label": "D",
       "role": "full BiFlow module",
-      "input": [1280, 1280],
-      "run": "D_run0",
-      "reported_map50_95": 0.7568,
+      "input": [
+        1280,
+        1280
+      ],
+      "map50_95_fold0": 0.7284,
+      "map50_95_mean_std": "0.5597 \u00b1 0.1285",
       "pt": {
-        "file": "D_1280_biflow_best.pt",
-        "size": 5956010,
-        "sha256": "851e15e871e78d06da6610cada45b7ea59aeb8ee3d941435ecec09f0aa65abad"
+        "file": "best.pt",
+        "size": 5910322,
+        "sha256": "be7a5c2c89e668297973188ca5ed9622d941be7bfcda779ea5bb47e65df63d01"
       },
       "onnx": {
-        "file": "D_1280_biflow.onnx",
-        "size": 11185286,
-        "sha256": "670b4c2ca103f9293e67461c24c24f86cd7d34f1b3dfbd7ec99222398d3c30e9",
-        "opset": 12
+        "file": "D_1280_fold0_seed42_1280.onnx",
+        "size": 11185743,
+        "sha256": "201ea8cf61df83d2613a01361240624b0e214a8fe572324df1dbde80b2f72dad"
       }
     }
-  ],
-  "not_included": [
-    "Fusion-control checkpoints (available from the corresponding author on reasonable request)"
-  ],
-  "license_notes": [
-    "PyTorch checkpoints were produced with the Ultralytics framework (AGPL-3.0); see THIRD_PARTY_NOTICES.md in the source repository.",
-    "reported_map50_95 values are the internal evaluation results reported in the paper for the frozen run0 weights."
   ]
 }

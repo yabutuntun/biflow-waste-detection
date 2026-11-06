@@ -1,1 +1,7 @@
 torch>=2.0
+ultralytics>=8.3.0
+numpy
+opencv-python
+onnx
+onnxruntime
+thop
