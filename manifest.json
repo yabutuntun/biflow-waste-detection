@@ -20,7 +20,7 @@
     "size": 902
   },
   "CITATION.cff": {
-    "sha256": "c7cc0cb9ec53eca3adcd30d3341f074cbfbab0ad3f0b9b1cd8902689125c2c60",
+    "sha256": "aba002d18af802e1f22bd17acaf7c7ce634f3b73b8cc4697a5f9bcb6fbbeeed2",
     "size": 477
   },
   "data/README.md": {
@@ -48,16 +48,16 @@
     "size": 6497
   },
   "NOTICE": {
-    "sha256": "6e63999fbd68fe81e988a76677fa0636b308aebb4756de19c5c49822c21af4d0",
-    "size": 585
+    "sha256": "97b95326a4903dd82ee4d921d868862ab4df49ba74ab8f696d594a50a9d5fca6",
+    "size": 550
   },
   "pyproject.toml": {
     "sha256": "7a258b0eb67e77e4b3c5e0cab82dfed072a455c42d85d5a065e15d979444d2f4",
     "size": 436
   },
   "README.md": {
-    "sha256": "37ff4857e732390c52e53cacf35d20298a84fcaa81dd5ad3bcf83b40cf7af299",
-    "size": 5525
+    "sha256": "8da9afd13bfe2d5464d00210a300e4dccb9022427981f2c77533841fcf6e79a3",
+    "size": 5347
   },
   "requirements-dev.txt": {
     "sha256": "b162f8333ca50fe348da676f33668a0fa6c66a358431c8912eae4334e885fc2d",
@@ -76,8 +76,8 @@
     "size": 683
   },
   "THIRD_PARTY_NOTICES.md": {
-    "sha256": "e323f4653e7ffdd53899e737ffb741a28e8518d5d4c9375b32c3b5d9016b1bea",
-    "size": 919
+    "sha256": "9d54593b676e9be15c66688ff69cc05b67f2dbe18fe8ed576b9107183b331adb",
+    "size": 966
   },
   "train.py": {
     "sha256": "72e9d6bee87c1041643a65ff3b639bf823509bb237c7a107c54cdd1306b51452",

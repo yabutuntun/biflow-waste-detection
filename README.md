@@ -4,16 +4,14 @@ Code for the paper:
 
 > **Accuracy--Efficiency--Latency Tradeoff of High-Resolution Input and
 > Lightweight Bidirectional Feature Compensation for Edge Waste Detection**
-> Weiru Guo and Thongchai Kaewkiriya, Journal of Real-Time Image Processing
-> (submitted).
+> Weiru Guo and Thongchai Kaewkiriya.
 
-BiFlow is a lightweight bidirectional feature-compensation module inserted
-between the feature pyramid and the detection head. It fuses each pair of
-adjacent feature levels (P3/P4 and P4/P5) with two residual branches: a
-low-to-high (upsampling) branch and a high-to-low (downsampling) branch. On the
-TOD waste-sorting dataset, BiFlow improves the leave-one-sequence-out
-mAP@0.50:0.95 of the YOLO26n @ 1280 baseline by +0.020 at a cost of +8.4%
-FLOPs.
+BiFlow is a lightweight bidirectional feature-compensation module placed
+between the feature pyramid and the detection head. Two units fuse each pair
+of adjacent levels (P3/P4 and P4/P5) through a low-to-high upsampling branch
+and a high-to-low downsampling branch. On the TOD waste-sorting dataset it
+raises the leave-one-sequence-out mAP@0.50:0.95 of the YOLO26n @ 1280 baseline
+by +0.020 for +8.4% FLOPs.
 
 ## Contents
 
@@ -153,8 +151,7 @@ pytest -q
 
 ## Citation
 
-The paper is under review. Until the final bibliographic record is available,
-please cite this repository using `CITATION.cff`.
+Please cite this repository using `CITATION.cff`.
 
 ## License
 

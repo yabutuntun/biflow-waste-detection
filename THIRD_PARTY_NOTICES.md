@@ -4,10 +4,11 @@
 
 The baseline detector and all trained checkpoints are built on the Ultralytics
 framework (YOLO26n). Ultralytics software is distributed under the AGPL-3.0
-license, with an Enterprise License available for commercial use. Neither the
-Ultralytics source code nor the integration layer is included in this
-repository. Users of the released checkpoints are responsible for complying
-with the Ultralytics license terms. See:
+license, with an Enterprise License available for commercial use. The
+Ultralytics source code is not included in this repository; the integration in
+`yolo_improved.py` imports from the Ultralytics package. Users of the released
+checkpoints are responsible for complying with the Ultralytics license terms.
+See:
 
 ```text
 https://www.ultralytics.com/license
