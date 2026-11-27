@@ -16,36 +16,36 @@
   "size": 1238
  },
  "CITATION.cff": {
-  "sha256": "aba002d18af802e1f22bd17acaf7c7ce634f3b73b8cc4697a5f9bcb6fbbeeed2",
-  "size": 477
+  "sha256": "29494aab7f4e0c0b6f5dfaf5b92a4dcb497b01dcf461aa1a3c9dbac481139ecb",
+  "size": 463
  },
  "LICENSE": {
   "sha256": "077cbe45b2633811bcf91e9755746f4a9a53c9660d6631684ecc24d248a19230",
   "size": 1091
  },
  "NOTICE": {
-  "sha256": "97b95326a4903dd82ee4d921d868862ab4df49ba74ab8f696d594a50a9d5fca6",
-  "size": 550
+  "sha256": "60ea0fd72f0f4c6a1a5f4b65fa4a55dcc4b5196460a413971deee37edc5996c8",
+  "size": 538
  },
  "README.md": {
   "sha256": "f3e8af3aa15f86a802e4e7ab4d7907528a4b2f69c791895f6cd802a64f4d15d9",
   "size": 6060
  },
  "THIRD_PARTY_NOTICES.md": {
-  "sha256": "9d54593b676e9be15c66688ff69cc05b67f2dbe18fe8ed576b9107183b331adb",
-  "size": 966
+  "sha256": "00d641aefaa1e5db2ca8159494b84cced7a5b484deefe153ef9cf1f7fb9a3778",
+  "size": 933
  },
  "ablation.py": {
   "sha256": "b9d1b8e321b7027a6472fde602736cfc217f029106496b0ee6663fa808c2c0e0",
   "size": 6468
  },
  "biflow.py": {
-  "sha256": "8066722b74ec684eb79f0ccd29fa7dbd8d55bbecb6e74934b245f10cd17b63dd",
-  "size": 1809
+  "sha256": "56aaf772eaf5cd08344dc7944885d59729f05ce8fe33d78804fe18eba81fb97c",
+  "size": 1754
  },
  "data/README.md": {
-  "sha256": "ecf700af0e34828fb0a86882c332b6dd0bcece1a1c8b3c191420de06db93e2e4",
-  "size": 1118
+  "sha256": "3a14cb49722d6c9c691943f408cb1cac29e6a4eb07674506aff3d8a2f6cf4e52",
+  "size": 1070
  },
  "evaluate.py": {
   "sha256": "be19f6337d8f6ff8344780c2082a53c743d09d889f301a32ad4994b9d14805e4",
@@ -76,16 +76,16 @@
   "size": 1802
  },
  "pyproject.toml": {
-  "sha256": "7a258b0eb67e77e4b3c5e0cab82dfed072a455c42d85d5a065e15d979444d2f4",
-  "size": 436
+  "sha256": "10a2ca304cc8c485a412b5173457b992b87515ad5cf0e2ae8b18874d54be7351",
+  "size": 417
  },
  "requirements-dev.txt": {
   "sha256": "5b49270ddf945ae086dbe082903120016d71df0dc50f58907c43e7e5149aafdc",
   "size": 12
  },
  "requirements.txt": {
-  "sha256": "2682ac9e436be06d769a4a8f028e85ace9ad844a50dbd52624b1d690c729b2e8",
-  "size": 79
+  "sha256": "61ac3459d21fdbff857b787698ee3563546f5a31349b8c4622d782fb2dde51ad",
+  "size": 72
  },
  "splits/outer_5fold/README.md": {
   "sha256": "905e241d15cb46a2e00511f5d4470d96ce233c03f7663b1e0f03be663e60eb27",
@@ -100,8 +100,8 @@
   "size": 2639
  },
  "splits/split_manifest.json": {
-  "sha256": "7200826fb01bee7ee505d3ee8b64e3cf97fd92df8210f62e24b9965cfac85979",
-  "size": 198649
+  "sha256": "98673038fa45cdd8237e9c98de352194ce0420807b90d3d0b98deea0974c30b0",
+  "size": 187134
  },
  "tests/test_biflow.py": {
   "sha256": "453982b9742e7ec5b23c958fc7aef5376e433f9f14c1964bb5c1a06fe9434e39",
@@ -112,12 +112,12 @@
   "size": 5601
  },
  "weights/README.md": {
-  "sha256": "cfa1ddf20a089f547f269f7800eeaf9ba9f827c1df64a2d7e913e284dcbc1c28",
-  "size": 2639
+  "sha256": "a0b61c7c81f8785f310cfcf04c20e19d57ea3ba71ffc1f8d80fd16ebbcbfd9cd",
+  "size": 2574
  },
  "weights/weights_manifest.json": {
-  "sha256": "7793685b6e0304750173a71902341e177d25dc566029e9f6c17c08f86e886437",
-  "size": 2214
+  "sha256": "3f28ad6515ba6d9d4e4e56e858eddecb01d285dfff93fb6a96e169b42feb78ce",
+  "size": 2146
  },
  "yolo_improved.py": {
   "sha256": "491a9d0b438885629bc7cda39433b08de1cdc281e983ac40548a19080bc1f8fc",
