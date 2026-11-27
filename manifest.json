@@ -16,7 +16,7 @@
   "size": 1238
  },
  "CITATION.cff": {
-  "sha256": "29494aab7f4e0c0b6f5dfaf5b92a4dcb497b01dcf461aa1a3c9dbac481139ecb",
+  "sha256": "3c6fc7ad2211a974aaf208518c274f782e6813dce6e61da832831546a229d0ff",
   "size": 463
  },
  "LICENSE": {
@@ -76,7 +76,7 @@
   "size": 1802
  },
  "pyproject.toml": {
-  "sha256": "10a2ca304cc8c485a412b5173457b992b87515ad5cf0e2ae8b18874d54be7351",
+  "sha256": "f3c269a21f147aace0f99ee76e11c66a1002bbc0379ed351c6af2890dda7c5ac",
   "size": 417
  },
  "requirements-dev.txt": {
