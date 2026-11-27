@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2 (2026-11-28)
+
+- Added `splits/outer_5fold/` with the leave-one-sequence-out fold assignments
+  used for the main results, and the per-fold class counts behind
+  Supplementary Table S1.
+- Added `measurements/` with the raw Raspberry Pi 5 latency, power and peak
+  memory output behind the timing tables.
+- Linked the Zenodo archive in the README.
+
 ## v1.0.1 (2026-11-06)
 
 - Upgraded the repository to the full reproduction pipeline.

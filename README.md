@@ -27,6 +27,10 @@ by +0.020 for +8.4% FLOPs.
 - `make_splits.py` -- build the clean_v1 splits from the TOD dataset.
 - `example.py` -- minimal shape example.
 - `splits/split_manifest.json` -- train/val/test identifiers used in the paper.
+- `splits/outer_5fold/` -- leave-one-sequence-out fold assignments for the
+  main results, plus the per-fold class counts.
+- `measurements/` -- raw Raspberry Pi 5 latency, power and memory output
+  behind the timing tables.
 - `weights/weights_manifest.json` -- SHA256 checksums of the released
   checkpoints and ONNX exports.
 - `LICENSE`, `NOTICE`, `THIRD_PARTY_NOTICES.md` -- licensing.
@@ -129,8 +133,10 @@ https://github.com/jms0923/tod
 The dataset is not redistributed in this repository. The evaluation uses 2876
 images grouped into five acquisition sequences (train 1943 / val 300 /
 test 633). The exact identifiers are provided in
-`splits/split_manifest.json`; images and labels must be obtained from the
-original TOD release. See `data/README.md` for the expected layout.
+`splits/split_manifest.json`, and the leave-one-sequence-out folds behind
+the main results are in `splits/outer_5fold/folds.json`; images and labels
+must be obtained from the original TOD release. See `data/README.md` for
+the expected layout.
 
 ## Weights
 
@@ -142,12 +148,29 @@ controlled comparison (A/B/D) together with a checksum manifest;
 checkpoints were produced with the Ultralytics framework, and their use
 remains subject to the corresponding Ultralytics license terms.
 
+## Measurements
+
+Raw board output for the timing tables is in `measurements/`: inference
+latency for every exported model and the power, energy and peak-memory
+session, both recorded on the Raspberry Pi 5 with ONNX Runtime. The two
+files are unedited copies of the benchmark output, and `measurements/README.md`
+maps each entry to a row of the paper.
+
 ## Tests
 
 ```bash
 pip install -r requirements.txt -r requirements-dev.txt
 pytest -q
 ```
+
+## Archive
+
+The code and the split files are archived on Zenodo:/n/n```text
+https://doi.org/10.5281/zenodo.23399853
+```
+
+The DOI is the concept DOI and always resolves to the latest archived
+version.
 
 ## Citation
 
