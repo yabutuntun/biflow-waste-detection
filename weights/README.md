@@ -1,7 +1,7 @@
 # Weights
 
 The paper checkpoints are distributed as a separate release asset,
-`weights_v1.0.1.zip`, so the source repository stays code-only. The archive
+`weights_v1.0.3.zip`, so the source repository stays code-only. The archive
 contains the three models of the controlled comparison, as PyTorch `best.pt`
 checkpoints and ONNX exports. SHA256 checksums are listed below and in
 `weights_manifest.json`.
@@ -29,7 +29,7 @@ request.
 ## Layout
 
 ```text
-weights_v1.0.1/
+weights_v1.0.3/
   A_640_best.pt
   B_1280_best.pt
   D_1280_biflow_best.pt
@@ -43,7 +43,7 @@ weights_v1.0.1/
 ## Verification
 
 ```bash
-python -c "import hashlib, pathlib; [print(p.name, hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(pathlib.Path('weights_v1.0.1').glob('*.*'))]"
+python -c "import hashlib, pathlib; [print(p.name, hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(pathlib.Path('weights_v1.0.3').glob('*.*'))]"
 ```
 
 Compare the printed digests with `weights_manifest.json` before use.
@@ -61,5 +61,5 @@ MIT-licensed and is independent of Ultralytics.
 The archive is attached to the GitHub release page of the repository:
 
 1. Open the Releases page of the repository.
-2. Download `weights_v1.0.1.zip` from the release.
+2. Download `weights_v1.0.3.zip` from the release.
 3. Unzip the archive and verify the SHA256 checksums as shown above.

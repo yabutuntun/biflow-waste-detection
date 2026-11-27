@@ -12,11 +12,11 @@
   "size": 135
  },
  "CHANGELOG.md": {
-  "sha256": "6fb33a715cad1081e62e4b747c902be382f2a277bd9896b7229377e9a41fcfff",
-  "size": 1238
+  "sha256": "1bf0326ffc14e375316363cfeb4ce284ef7e9e862b861a7bf91b5bc6961fa650",
+  "size": 1643
  },
  "CITATION.cff": {
-  "sha256": "3c6fc7ad2211a974aaf208518c274f782e6813dce6e61da832831546a229d0ff",
+  "sha256": "b8e236a29fc53c910dcc1a2b0cc2d59bc90b9e45c1fe39aab366d64ebeae2dbe",
   "size": 463
  },
  "LICENSE": {
@@ -28,7 +28,7 @@
   "size": 538
  },
  "README.md": {
-  "sha256": "f3e8af3aa15f86a802e4e7ab4d7907528a4b2f69c791895f6cd802a64f4d15d9",
+  "sha256": "1f3a1ae9c60ee756ef7aac37dea5425d4c011a2d92ff9a79c537561bd0dc2ad2",
   "size": 6060
  },
  "THIRD_PARTY_NOTICES.md": {
@@ -76,7 +76,7 @@
   "size": 1802
  },
  "pyproject.toml": {
-  "sha256": "f3c269a21f147aace0f99ee76e11c66a1002bbc0379ed351c6af2890dda7c5ac",
+  "sha256": "dcd35b59107c74ad1b5e5d1806c12ba1c310483766ac46cd0d74df08cdd8e1e7",
   "size": 417
  },
  "requirements-dev.txt": {
@@ -112,11 +112,11 @@
   "size": 5601
  },
  "weights/README.md": {
-  "sha256": "a0b61c7c81f8785f310cfcf04c20e19d57ea3ba71ffc1f8d80fd16ebbcbfd9cd",
+  "sha256": "e2a0782f575b4ce5f35b84e392f053b1d1d22fe5eb593c821dff629f457be347",
   "size": 2574
  },
  "weights/weights_manifest.json": {
-  "sha256": "3f28ad6515ba6d9d4e4e56e858eddecb01d285dfff93fb6a96e169b42feb78ce",
+  "sha256": "d68d13dd04aa22e801542ee86538fccb07e32b7c6ac092e488dc5ec60ce23a11",
   "size": 2146
  },
  "yolo_improved.py": {

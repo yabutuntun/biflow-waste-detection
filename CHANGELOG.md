@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.3 (2026-11-28)
+
+- Bumped the metadata version in `CITATION.cff` and `pyproject.toml`; the
+  release archives carried the previous version string.
+- Renamed the weights asset to `weights_v1.0.3.zip` (contents unchanged, same
+  SHA256 values; only the enclosing folder is renamed), and updated the
+  references in both READMEs and in `weights/weights_manifest.json`.
+- `manifest.json` regenerated.
+
 ## v1.0.2 (2026-11-28)
 
 - Added `splits/outer_5fold/` with the leave-one-sequence-out fold assignments

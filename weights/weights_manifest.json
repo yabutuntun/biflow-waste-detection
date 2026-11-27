@@ -1,5 +1,5 @@
 {
-  "release": "weights_v1.0.1",
+  "release": "weights_v1.0.3",
   "released": "2026-11-06",
   "paper": "Accuracy--Efficiency--Latency Tradeoff of High-Resolution Input and Lightweight Bidirectional Feature Compensation for Edge Waste Detection",
   "source_runs": "leave-one-sequence-out fold 0 (seed 42) checkpoints; clean_v1 dataset (2876 images, 5 sequences)",

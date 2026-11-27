@@ -141,7 +141,7 @@ the expected layout.
 ## Weights
 
 Trained checkpoints and ONNX exports are published as a separate release
-asset (`weights_v1.0.1.zip`). The archive contains the three models of the
+asset (`weights_v1.0.3.zip`). The archive contains the three models of the
 controlled comparison (A/B/D) together with a checksum manifest;
 `weights/README.md` lists the released files and
 `weights/weights_manifest.json` records their SHA256 checksums. The
